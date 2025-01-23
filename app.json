@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "WaxMate",
+    "slug": "waxmate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jpsignum.waxmate"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jpsignum.waxmate"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a9297841-fe11-4acc-b1e7-3dd2b9a8c037"
+      }
+    },
+    "owner": "jp_signum",
+    "updates": {
+      "url": "https://u.expo.dev/a9297841-fe11-4acc-b1e7-3dd2b9a8c037"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
