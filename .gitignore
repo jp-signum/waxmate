@@ -35,4 +35,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# leftover from initial reset script
 app-example
+
+# test
+coverage/**/*
