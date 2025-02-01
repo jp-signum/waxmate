@@ -22,6 +22,24 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="discover"
+        options={{
+          title: "Discover",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome size={28} name="binoculars" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="connect"
+        options={{
+          title: "Connect",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome size={28} name="plug" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
