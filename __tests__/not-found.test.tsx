@@ -1,7 +1,7 @@
 // __tests__/not-found.test.jsx
+import NotFoundScreen from "../src/app/+not-found";
 import { fireEvent, waitFor } from "@testing-library/react-native";
 import { renderRouter, screen } from "expo-router/testing-library";
-import NotFoundScreen from "@/app/+not-found";
 
 describe("NotFound Component", () => {
   it("renders NotFoundScreen on invalid route and navigates to home", async () => {

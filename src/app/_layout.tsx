@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useFonts } from "expo-font";
 import { logger } from "react-native-logs";
 
-import "../styles/global.css";
+import "../../styles/global.css";
 
 // prevent the splash screen from auto-hiding before asset
 SplashScreen.preventAutoHideAsync();
@@ -13,7 +13,7 @@ const log = logger.createLogger();
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+    SpaceMono: require("../../assets/fonts/SpaceMono-Regular.ttf"),
   });
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-// app/(tabs)/index.tsx landing page
+// app/(tabs)/index.tsx landing screen
 import { Text, View } from "react-native";
 
 export default function Index() {
